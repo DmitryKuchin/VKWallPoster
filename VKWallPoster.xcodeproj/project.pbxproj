@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6843F91C1D95257B00EC6B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F91B1D95257B00EC6B2E /* main.m */; };
+		6843F91F1D95257B00EC6B2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F91E1D95257B00EC6B2E /* AppDelegate.m */; };
+		6843F9221D95257B00EC6B2E /* DKAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9211D95257B00EC6B2E /* DKAuthorizationViewController.m */; };
+		6843F92A1D95257B00EC6B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6843F9291D95257B00EC6B2E /* Assets.xcassets */; };
+		6843F92D1D95257B00EC6B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6843F92B1D95257B00EC6B2E /* LaunchScreen.storyboard */; };
+		6843F9461D95313D00EC6B2E /* DKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9451D95313D00EC6B2E /* DKService.m */; };
+		6843F9491D95320600EC6B2E /* DKAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9481D95320600EC6B2E /* DKAccessToken.m */; };
+		6843F94B1D95350C00EC6B2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6843F94A1D95350C00EC6B2E /* Default-568h@2x.png */; };
+		6843F94E1D9536DD00EC6B2E /* VKWallPoster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6843F94C1D9536DD00EC6B2E /* VKWallPoster.xcdatamodeld */; };
+		6843F9501D95375100EC6B2E /* AuthorizationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6843F94F1D95375100EC6B2E /* AuthorizationViewController.storyboard */; };
+		6843F9531D95475D00EC6B2E /* DKWallUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9521D95475D00EC6B2E /* DKWallUserViewController.m */; };
+		6843F9551D95477100EC6B2E /* WallUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6843F9541D95477100EC6B2E /* WallUser.storyboard */; };
+		6843F95A1D954EE100EC6B2E /* DKWallUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9581D954EE100EC6B2E /* DKWallUserCell.m */; };
+		6843F95B1D954EE100EC6B2E /* DKWallUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6843F9591D954EE100EC6B2E /* DKWallUserCell.xib */; };
+		6843F9681D95580F00EC6B2E /* Mogenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843F9661D95580F00EC6B2E /* Mogenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6843F96B1D95580F00EC6B2E /* Mogenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6843F9641D95580F00EC6B2E /* Mogenerator.framework */; };
+		6843F96C1D95580F00EC6B2E /* Mogenerator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6843F9641D95580F00EC6B2E /* Mogenerator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6843F9891D95608B00EC6B2E /* DKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9861D95608B00EC6B2E /* DKPost.m */; };
+		6843F98A1D95608B00EC6B2E /* DKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9881D95608B00EC6B2E /* DKUser.m */; };
+		6843F98F1D95609600EC6B2E /* _DKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F98C1D95609600EC6B2E /* _DKPost.m */; };
+		6843F9901D95609600EC6B2E /* _DKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F98E1D95609600EC6B2E /* _DKUser.m */; };
+		6843F9931D9566DF00EC6B2E /* DKKeychainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9921D9566DF00EC6B2E /* DKKeychainStore.m */; };
+		6843F9971D9567F700EC6B2E /* DKDKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843F9961D9567F700EC6B2E /* DKDKInternalUtility.m */; };
+		D21CA6370C86E97DA2010E74 /* libPods-VKWallPoster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB88CEF601B20BFD6B27E0D /* libPods-VKWallPoster.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6843F9691D95580F00EC6B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6843F90F1D95257B00EC6B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6843F9631D95580F00EC6B2E;
+			remoteInfo = Mogenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6843F9701D95581000EC6B2E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6843F96C1D95580F00EC6B2E /* Mogenerator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DB88CEF601B20BFD6B27E0D /* libPods-VKWallPoster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKWallPoster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6843F9171D95257B00EC6B2E /* VKWallPoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKWallPoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6843F91B1D95257B00EC6B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6843F91D1D95257B00EC6B2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6843F91E1D95257B00EC6B2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6843F9201D95257B00EC6B2E /* DKAuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAuthorizationViewController.h; sourceTree = "<group>"; };
+		6843F9211D95257B00EC6B2E /* DKAuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAuthorizationViewController.m; sourceTree = "<group>"; };
+		6843F9291D95257B00EC6B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6843F92C1D95257B00EC6B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6843F92E1D95257B00EC6B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		6843F9441D95313D00EC6B2E /* DKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKService.h; sourceTree = "<group>"; };
+		6843F9451D95313D00EC6B2E /* DKService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKService.m; sourceTree = "<group>"; };
+		6843F9471D95320600EC6B2E /* DKAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAccessToken.h; sourceTree = "<group>"; };
+		6843F9481D95320600EC6B2E /* DKAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAccessToken.m; sourceTree = "<group>"; };
+		6843F94A1D95350C00EC6B2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
+		6843F94D1D9536DD00EC6B2E /* VKWallPoster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKWallPoster.xcdatamodel; sourceTree = "<group>"; };
+		6843F94F1D95375100EC6B2E /* AuthorizationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AuthorizationViewController.storyboard; sourceTree = "<group>"; };
+		6843F9511D95475D00EC6B2E /* DKWallUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWallUserViewController.h; sourceTree = "<group>"; };
+		6843F9521D95475D00EC6B2E /* DKWallUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWallUserViewController.m; sourceTree = "<group>"; };
+		6843F9541D95477100EC6B2E /* WallUser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WallUser.storyboard; sourceTree = "<group>"; };
+		6843F9571D954EE100EC6B2E /* DKWallUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWallUserCell.h; sourceTree = "<group>"; };
+		6843F9581D954EE100EC6B2E /* DKWallUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWallUserCell.m; sourceTree = "<group>"; };
+		6843F9591D954EE100EC6B2E /* DKWallUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKWallUserCell.xib; sourceTree = "<group>"; };
+		6843F9641D95580F00EC6B2E /* Mogenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mogenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6843F9661D95580F00EC6B2E /* Mogenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mogenerator.h; sourceTree = "<group>"; };
+		6843F9671D95580F00EC6B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6843F9851D95608B00EC6B2E /* DKPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKPost.h; path = Editable/DKPost.h; sourceTree = "<group>"; };
+		6843F9861D95608B00EC6B2E /* DKPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKPost.m; path = Editable/DKPost.m; sourceTree = "<group>"; };
+		6843F9871D95608B00EC6B2E /* DKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKUser.h; path = Editable/DKUser.h; sourceTree = "<group>"; };
+		6843F9881D95608B00EC6B2E /* DKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKUser.m; path = Editable/DKUser.m; sourceTree = "<group>"; };
+		6843F98B1D95609600EC6B2E /* _DKPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DKPost.h; path = Base/_DKPost.h; sourceTree = "<group>"; };
+		6843F98C1D95609600EC6B2E /* _DKPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DKPost.m; path = Base/_DKPost.m; sourceTree = "<group>"; };
+		6843F98D1D95609600EC6B2E /* _DKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DKUser.h; path = Base/_DKUser.h; sourceTree = "<group>"; };
+		6843F98E1D95609600EC6B2E /* _DKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DKUser.m; path = Base/_DKUser.m; sourceTree = "<group>"; };
+		6843F9911D9566DF00EC6B2E /* DKKeychainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKKeychainStore.h; path = KeychainStore/DKKeychainStore.h; sourceTree = "<group>"; };
+		6843F9921D9566DF00EC6B2E /* DKKeychainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKKeychainStore.m; path = KeychainStore/DKKeychainStore.m; sourceTree = "<group>"; };
+		6843F9951D9567F700EC6B2E /* DKDKInternalUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDKInternalUtility.h; sourceTree = "<group>"; };
+		6843F9961D9567F700EC6B2E /* DKDKInternalUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDKInternalUtility.m; sourceTree = "<group>"; };
+		D81DD515E9B8A8EBA80EB06E /* Pods-VKWallPoster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKWallPoster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKWallPoster/Pods-VKWallPoster.debug.xcconfig"; sourceTree = "<group>"; };
+		EFAED209C5953E8EE112D070 /* Pods-VKWallPoster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKWallPoster.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKWallPoster/Pods-VKWallPoster.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6843F9141D95257B00EC6B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6843F96B1D95580F00EC6B2E /* Mogenerator.framework in Frameworks */,
+				D21CA6370C86E97DA2010E74 /* libPods-VKWallPoster.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6843F9601D95580F00EC6B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6843F90E1D95257B00EC6B2E = {
+			isa = PBXGroup;
+			children = (
+				6843F9191D95257B00EC6B2E /* VKWallPoster */,
+				6843F9651D95580F00EC6B2E /* Mogenerator */,
+				6843F9181D95257B00EC6B2E /* Products */,
+				911AFB56DB4463861025E30E /* Pods */,
+				985A763E8E670BB5E319E5D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6843F9181D95257B00EC6B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9171D95257B00EC6B2E /* VKWallPoster.app */,
+				6843F9641D95580F00EC6B2E /* Mogenerator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6843F9191D95257B00EC6B2E /* VKWallPoster */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9361D9525B200EC6B2E /* Abstract Layers */,
+				6843F9371D9525D100EC6B2E /* Core Data */,
+				6843F9381D9525D900EC6B2E /* Keychain */,
+				6843F9391D95260400EC6B2E /* Reusable Layers */,
+				6843F9431D9530DB00EC6B2E /* Service */,
+				6843F91A1D95257B00EC6B2E /* Supporting Files */,
+				6843F9351D9525A000EC6B2E /* View Controllers */,
+			);
+			path = VKWallPoster;
+			sourceTree = "<group>";
+		};
+		6843F91A1D95257B00EC6B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6843F94A1D95350C00EC6B2E /* Default-568h@2x.png */,
+				6843F92B1D95257B00EC6B2E /* LaunchScreen.storyboard */,
+				6843F9291D95257B00EC6B2E /* Assets.xcassets */,
+				6843F93E1D9527DB00EC6B2E /* AppDelegate */,
+				6843F91B1D95257B00EC6B2E /* main.m */,
+				6843F92E1D95257B00EC6B2E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6843F9351D9525A000EC6B2E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6843F93D1D9526D800EC6B2E /* PostWallViewController */,
+				6843F93C1D9526B600EC6B2E /* WallUserViewController */,
+				6843F93B1D95267D00EC6B2E /* AuthorizationViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6843F9361D9525B200EC6B2E /* Abstract Layers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Abstract Layers";
+			sourceTree = "<group>";
+		};
+		6843F9371D9525D100EC6B2E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9401D95287900EC6B2E /* Models */,
+				6843F93F1D95286F00EC6B2E /* Data Model */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		6843F9381D9525D900EC6B2E /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9941D9567B900EC6B2E /* DKInternalUtility */,
+				6843F9421D9530C400EC6B2E /* Keychain Store */,
+				6843F9411D9530BD00EC6B2E /* Access Token */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		6843F9391D95260400EC6B2E /* Reusable Layers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Reusable Layers";
+			sourceTree = "<group>";
+		};
+		6843F93B1D95267D00EC6B2E /* AuthorizationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9201D95257B00EC6B2E /* DKAuthorizationViewController.h */,
+				6843F9211D95257B00EC6B2E /* DKAuthorizationViewController.m */,
+				6843F94F1D95375100EC6B2E /* AuthorizationViewController.storyboard */,
+			);
+			path = AuthorizationViewController;
+			sourceTree = "<group>";
+		};
+		6843F93C1D9526B600EC6B2E /* WallUserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9561D954E9C00EC6B2E /* WallUserCell */,
+				6843F9511D95475D00EC6B2E /* DKWallUserViewController.h */,
+				6843F9521D95475D00EC6B2E /* DKWallUserViewController.m */,
+				6843F9541D95477100EC6B2E /* WallUser.storyboard */,
+			);
+			path = WallUserViewController;
+			sourceTree = "<group>";
+		};
+		6843F93D1D9526D800EC6B2E /* PostWallViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PostWallViewController;
+			sourceTree = "<group>";
+		};
+		6843F93E1D9527DB00EC6B2E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6843F91D1D95257B00EC6B2E /* AppDelegate.h */,
+				6843F91E1D95257B00EC6B2E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6843F93F1D95286F00EC6B2E /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				6843F94C1D9536DD00EC6B2E /* VKWallPoster.xcdatamodeld */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		6843F9401D95287900EC6B2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9841D95607D00EC6B2E /* Editable */,
+				6843F9831D95607400EC6B2E /* Base */,
+			);
+			name = Models;
+			path = "Core Data/Models";
+			sourceTree = "<group>";
+		};
+		6843F9411D9530BD00EC6B2E /* Access Token */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9471D95320600EC6B2E /* DKAccessToken.h */,
+				6843F9481D95320600EC6B2E /* DKAccessToken.m */,
+			);
+			path = "Access Token";
+			sourceTree = "<group>";
+		};
+		6843F9421D9530C400EC6B2E /* Keychain Store */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9911D9566DF00EC6B2E /* DKKeychainStore.h */,
+				6843F9921D9566DF00EC6B2E /* DKKeychainStore.m */,
+			);
+			name = "Keychain Store";
+			sourceTree = "<group>";
+		};
+		6843F9431D9530DB00EC6B2E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9441D95313D00EC6B2E /* DKService.h */,
+				6843F9451D95313D00EC6B2E /* DKService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6843F9561D954E9C00EC6B2E /* WallUserCell */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9571D954EE100EC6B2E /* DKWallUserCell.h */,
+				6843F9581D954EE100EC6B2E /* DKWallUserCell.m */,
+				6843F9591D954EE100EC6B2E /* DKWallUserCell.xib */,
+			);
+			path = WallUserCell;
+			sourceTree = "<group>";
+		};
+		6843F9651D95580F00EC6B2E /* Mogenerator */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9661D95580F00EC6B2E /* Mogenerator.h */,
+				6843F9671D95580F00EC6B2E /* Info.plist */,
+			);
+			path = Mogenerator;
+			sourceTree = "<group>";
+		};
+		6843F9831D95607400EC6B2E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6843F98B1D95609600EC6B2E /* _DKPost.h */,
+				6843F98C1D95609600EC6B2E /* _DKPost.m */,
+				6843F98D1D95609600EC6B2E /* _DKUser.h */,
+				6843F98E1D95609600EC6B2E /* _DKUser.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		6843F9841D95607D00EC6B2E /* Editable */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9851D95608B00EC6B2E /* DKPost.h */,
+				6843F9861D95608B00EC6B2E /* DKPost.m */,
+				6843F9871D95608B00EC6B2E /* DKUser.h */,
+				6843F9881D95608B00EC6B2E /* DKUser.m */,
+			);
+			name = Editable;
+			sourceTree = "<group>";
+		};
+		6843F9941D9567B900EC6B2E /* DKInternalUtility */ = {
+			isa = PBXGroup;
+			children = (
+				6843F9951D9567F700EC6B2E /* DKDKInternalUtility.h */,
+				6843F9961D9567F700EC6B2E /* DKDKInternalUtility.m */,
+			);
+			name = DKInternalUtility;
+			path = InternalUtility;
+			sourceTree = "<group>";
+		};
+		911AFB56DB4463861025E30E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D81DD515E9B8A8EBA80EB06E /* Pods-VKWallPoster.debug.xcconfig */,
+				EFAED209C5953E8EE112D070 /* Pods-VKWallPoster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		985A763E8E670BB5E319E5D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB88CEF601B20BFD6B27E0D /* libPods-VKWallPoster.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6843F9611D95580F00EC6B2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6843F9681D95580F00EC6B2E /* Mogenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6843F9161D95257B00EC6B2E /* VKWallPoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6843F9311D95257B00EC6B2E /* Build configuration list for PBXNativeTarget "VKWallPoster" */;
+			buildPhases = (
+				BBF0044A34080BABBC78ED00 /* [CP] Check Pods Manifest.lock */,
+				6843F9131D95257B00EC6B2E /* Sources */,
+				6843F9141D95257B00EC6B2E /* Frameworks */,
+				6843F9151D95257B00EC6B2E /* Resources */,
+				57B149E98AEA0EAA6A891AE5 /* [CP] Embed Pods Frameworks */,
+				76575312A5381C8596C495E0 /* [CP] Copy Pods Resources */,
+				6843F9701D95581000EC6B2E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6843F96A1D95580F00EC6B2E /* PBXTargetDependency */,
+			);
+			name = VKWallPoster;
+			productName = VKWallPoster;
+			productReference = 6843F9171D95257B00EC6B2E /* VKWallPoster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6843F9631D95580F00EC6B2E /* Mogenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6843F96D1D95581000EC6B2E /* Build configuration list for PBXNativeTarget "Mogenerator" */;
+			buildPhases = (
+				6843F95F1D95580F00EC6B2E /* Sources */,
+				6843F9601D95580F00EC6B2E /* Frameworks */,
+				6843F9611D95580F00EC6B2E /* Headers */,
+				6843F9621D95580F00EC6B2E /* Resources */,
+				6843F9711D95583500EC6B2E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mogenerator;
+			productName = Mogenerator;
+			productReference = 6843F9641D95580F00EC6B2E /* Mogenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6843F90F1D95257B00EC6B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Dmitry Kuchin";
+				TargetAttributes = {
+					6843F9161D95257B00EC6B2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WHM232PK37;
+						ProvisioningStyle = Automatic;
+					};
+					6843F9631D95580F00EC6B2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WHM232PK37;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6843F9121D95257B00EC6B2E /* Build configuration list for PBXProject "VKWallPoster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6843F90E1D95257B00EC6B2E;
+			productRefGroup = 6843F9181D95257B00EC6B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6843F9161D95257B00EC6B2E /* VKWallPoster */,
+				6843F9631D95580F00EC6B2E /* Mogenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6843F9151D95257B00EC6B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6843F9551D95477100EC6B2E /* WallUser.storyboard in Resources */,
+				6843F92D1D95257B00EC6B2E /* LaunchScreen.storyboard in Resources */,
+				6843F9501D95375100EC6B2E /* AuthorizationViewController.storyboard in Resources */,
+				6843F95B1D954EE100EC6B2E /* DKWallUserCell.xib in Resources */,
+				6843F94B1D95350C00EC6B2E /* Default-568h@2x.png in Resources */,
+				6843F92A1D95257B00EC6B2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6843F9621D95580F00EC6B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57B149E98AEA0EAA6A891AE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKWallPoster/Pods-VKWallPoster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6843F9711D95583500EC6B2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mogenerator -m VKWallPoster/Core\\ Data/Data\\ Model/VKWallPoster.xcdatamodeld  -O VKWallPoster/Core\\ Data/Models  --template-var arc=true";
+		};
+		76575312A5381C8596C495E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKWallPoster/Pods-VKWallPoster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF0044A34080BABBC78ED00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6843F9131D95257B00EC6B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6843F9221D95257B00EC6B2E /* DKAuthorizationViewController.m in Sources */,
+				6843F9971D9567F700EC6B2E /* DKDKInternalUtility.m in Sources */,
+				6843F9901D95609600EC6B2E /* _DKUser.m in Sources */,
+				6843F95A1D954EE100EC6B2E /* DKWallUserCell.m in Sources */,
+				6843F98F1D95609600EC6B2E /* _DKPost.m in Sources */,
+				6843F91F1D95257B00EC6B2E /* AppDelegate.m in Sources */,
+				6843F9461D95313D00EC6B2E /* DKService.m in Sources */,
+				6843F91C1D95257B00EC6B2E /* main.m in Sources */,
+				6843F9491D95320600EC6B2E /* DKAccessToken.m in Sources */,
+				6843F9931D9566DF00EC6B2E /* DKKeychainStore.m in Sources */,
+				6843F9531D95475D00EC6B2E /* DKWallUserViewController.m in Sources */,
+				6843F9891D95608B00EC6B2E /* DKPost.m in Sources */,
+				6843F94E1D9536DD00EC6B2E /* VKWallPoster.xcdatamodeld in Sources */,
+				6843F98A1D95608B00EC6B2E /* DKUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6843F95F1D95580F00EC6B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6843F96A1D95580F00EC6B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6843F9631D95580F00EC6B2E /* Mogenerator */;
+			targetProxy = 6843F9691D95580F00EC6B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6843F92B1D95257B00EC6B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6843F92C1D95257B00EC6B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6843F92F1D95257B00EC6B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6843F9301D95257B00EC6B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6843F9321D95257B00EC6B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81DD515E9B8A8EBA80EB06E /* Pods-VKWallPoster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WHM232PK37;
+				INFOPLIST_FILE = VKWallPoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuchin.ru.VKWallPoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6843F9331D95257B00EC6B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAED209C5953E8EE112D070 /* Pods-VKWallPoster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WHM232PK37;
+				INFOPLIST_FILE = VKWallPoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuchin.ru.VKWallPoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6843F96E1D95581000EC6B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WHM232PK37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Mogenerator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuchin.ru.Mogenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6843F96F1D95581000EC6B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WHM232PK37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Mogenerator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuchin.ru.Mogenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6843F9121D95257B00EC6B2E /* Build configuration list for PBXProject "VKWallPoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6843F92F1D95257B00EC6B2E /* Debug */,
+				6843F9301D95257B00EC6B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6843F9311D95257B00EC6B2E /* Build configuration list for PBXNativeTarget "VKWallPoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6843F9321D95257B00EC6B2E /* Debug */,
+				6843F9331D95257B00EC6B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6843F96D1D95581000EC6B2E /* Build configuration list for PBXNativeTarget "Mogenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6843F96E1D95581000EC6B2E /* Debug */,
+				6843F96F1D95581000EC6B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6843F94C1D9536DD00EC6B2E /* VKWallPoster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6843F94D1D9536DD00EC6B2E /* VKWallPoster.xcdatamodel */,
+			);
+			currentVersion = 6843F94D1D9536DD00EC6B2E /* VKWallPoster.xcdatamodel */;
+			name = VKWallPoster.xcdatamodeld;
+			path = "Core Data/Data Model/VKWallPoster.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6843F90F1D95257B00EC6B2E /* Project object */;
+}
